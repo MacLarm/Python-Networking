@@ -20,14 +20,16 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+This project was developed using VS code on Mac. 
+I am using python version 3.10.11 with the standard python library 'socket'.
+During testing I would run the server through the computer's terminal and the 
+client from the terminal within VS code.
+This should run on any computer with python installed.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
+* [socket — Low-level networking interface](https://docs.python.org/3/library/socket.html)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
