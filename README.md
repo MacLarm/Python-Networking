@@ -1,22 +1,19 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
+I wanted to learn some of the basics of programming networking. I wanted to use
+python's socket library to learn more of the the methods and functions that are
+availiable. 
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Network Communication
 
-{Describe the architecture that you used (client/server or peer-to-peer)}
-
-{Identify if you are using TCP or UDP and what port numbers are used.}
-
-{Identify the format of messages being sent between the client and server or the messages sent between two peers.}
+The beta is a simple text messaging system. It uses a server to client architecture. 
+The server grabs an availiable port then gives that to the user who can then give 
+the port number to a client so that the two parties could chat. The client can exit
+from the chat by typing 'bye'. 
+By default the program uses the TCP protocol, it is not as fast but it is more secure.
+Security is the higher priority as messages do not need much speed.
 
 # Development Environment
 
@@ -28,13 +25,12 @@ This should run on any computer with python installed.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [socket — Low-level networking interface](https://docs.python.org/3/library/socket.html)
-* [Web Site Name](http://url.link.goes.here)
+* [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+Future Improvements.
+* I want to make a single user interface, where you can choose between hosting a chat or joining one.
+* I want to change the flow of the chat, to where you can send more than one message back to back
+* I want to add options to share other types of data beside text.
