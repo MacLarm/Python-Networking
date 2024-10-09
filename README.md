@@ -4,7 +4,7 @@ I wanted to learn some of the basics of programming networking. I wanted to use
 python's socket library to learn more of the the methods and functions that are
 availiable. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/vJtCxCUTUEM)
 
 # Network Communication
 
